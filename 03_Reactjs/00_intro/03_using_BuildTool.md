@@ -1,0 +1,2 @@
+# Build Tool 
+The first step is to install a build tool like vite, parcel, or rsbuild. These build tools provide features to package and run source code, provide a development server for local development and a build command to deploy your app to a production server.
