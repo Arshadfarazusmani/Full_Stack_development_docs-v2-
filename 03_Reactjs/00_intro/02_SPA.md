@@ -22,3 +22,4 @@ Separation of concerns: SPAs encourage a decoupled architecture where the front-
 Examples: Many popular web applications are SPAs, including Gmail, Google Maps, Netflix, and Trello.
 
 SPAs are a significant departure from traditional multi-page applications (MPAs), which require a full page refresh for every navigation or content change. While SPAs offer many advantages, they can also present challenges, such as a more complex initial setup, potential issues with search engine optimization (SEO) due to their dynamic nature, and the need for more advanced state management on the client-side
+
