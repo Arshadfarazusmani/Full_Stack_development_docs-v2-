@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+.card{
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+}
+
+.navbar{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    background-color: rgb(185, 90, 106);
+}
+.nav-links{
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+}
