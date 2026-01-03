@@ -1,0 +1,166 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* .parent { */
+  /* height: 100vh;
+  width: 100vw;
+  background-color: #1a1a1a;
+}
+.card{ */
+  /* height: 400px;
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(224, 177, 177, 0.2);
+  margin: auto; */
+
+
+
+  /* Layout Reset & Container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+  /* background-color: #f5f5f5; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Main Card */
+.job-card {
+  background: white;
+  width: 300px;
+  /* height: 300px; */
+  padding: 32px;
+  border-radius: 40px; /* Large smooth corners */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f0f0f0;
+  /* gap: 10px; */
+}
+
+/* Header Styles */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.logo-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.company-logo {
+  width: 35px;
+  height: auto;
+}
+
+.save-btn {
+  background: white;
+  border: 1px solid #e0e0e0;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #666;
+  cursor: pointer;
+}
+
+/* Body Styles */
+.meta-info {
+  margin-bottom: 8px;
+}
+
+.company-name {
+  font-weight: 600;
+  color: #333;
+  margin-right: 8px;
+}
+
+.post-date {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 16px 0;
+  color: #000;
+  letter-spacing: -0.5px;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.tag {
+  background: #f4f4f4;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Footer Styles */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.salary {
+  font-size: 20px;
+  font-weight: 800;
+  color: #000;
+}
+
+.location {
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+}
+
+.apply-btn {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.apply-btn:hover {
+  opacity: 0.9;
+}
